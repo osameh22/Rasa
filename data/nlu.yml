@@ -1,0 +1,281 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: minimum_grade
+  examples: |
+    - حداقل نمره قبولی؟
+    - نمره پاس شدن چقدر است ؟
+    - برای فبولی باید نمره بالای 10 ببرم؟
+
+- intent: student_id
+  examples: |
+    - شماره دانشجویی چیست ؟    
+
+- intent: golestan_system
+  examples: |
+    -  سیستم گلستان چیست ؟
+
+- intent: howـregisterـuniversity
+  examples: |
+    -  چه مدارکی برای ثبت نام در دانشگاه لازم است که بفرستم ؟
+ 
+
+- intent: changeـfield
+  examples: |
+    - تغییر رشته چیست؟
+    - شرایط تغییر رشته چیه ؟
+    - برای تغییر رشته باید چیکار کنم
+
+- intent: classـtime
+  examples: |
+    - چه وقت کلاس های شروع میشود؟
+    -کلاس ها در چه زمانی شروع  میشود 
+    - زمان کلاس های من کی هست 
+    - کلاس ها صبح برگزار می شود یا بعد از ظهر؟
+
+- intent: failureـpassـoneـhighـschoolـcourses
+  examples: |
+    - در صورت عدم قبولی در یکی از دروس متوسطه، درخصوص ثبت نام مشکلی پیش می آید؟
+
+- intent: notـhavingـnationalـcode
+  examples: |
+    - درصورت نداشتن کارت ملی باید چه اقدامی انجام دهیم؟
+
+- intent: determiningـsupervisorـmaster
+  examples: |
+    - تعیین استاد راهنما چگونه انجام می شود؟
+
+- intent: golestan_problem
+  examples: |
+    - در صورت مواجهه با مشکل برای ورود به گلستان چه اقدامی انجام دهیم؟
+
+- intent: timeـstartـnewـsemester
+  examples: |
+    - زمان شروع و پایان ترم چه زمانی است؟  
+
+- intent: failureـparticipateـinـexam
+  examples: |
+    - اگر دانشجویی نتواند امتحانی را شرکت کند چه می شود؟
+
+- intent: numberـofـunitsـcanـbeـobtainedـforـeachـstudent
+  examples: |
+    - دانشجو هر ترم چند واحد میتواند اخذ کند؟
+
+- intent: Contact_with_university
+  examples: |
+    - ارتباط با دانشكده از چه طريقی است؟
+
+- intent: Deleting_a_course_or_semester
+  examples: |
+    - انواع حذف پزشکی
+    - حذف درس چطور است
+    - حذف ترم چیست
+
+- intent: Leaveـinـtheـfirstـsemester
+  examples: |
+    - آیا امکان مرخصی در ترم اول وجود دارد؟
+
+- intent: change_field
+  examples: |
+    - نحوه تغییر رشته به همراه انتقال به چه صورت است؟
+
+- intent: Withdrawal_education
+  examples: |
+    - نحوه درخواست انصراف از تحصیل چگونه است؟
+
+- intent: Guest_transfers_requests
+  examples: |
+    - درخواست مهمانی و انتقال از چه طریقی قابل انجام است؟
+
+- intent: Certificate_student
+  examples: |
+    - روش دریافت گواهی اشتغال به تحصیل  چگونه است؟
+
+- intent: years_limite
+  examples: |
+    - سقف سنوات دانشجو چند نیمسال است؟
+
+- intent: Equalization_courses
+  examples: |
+    - آیا واحدهای گذرانده در دانشگاه آزاد، پیام نور، فنی و حرفه ای، علمی کاربردی یا موسسات غیر انتفاعی در دانشگاه کردستان قابل برابرسازی است؟
+
+- intent: Error_choosing_courses
+  examples: |
+    - اگر در انتخاب واحد با خطا مواجه شدید، باید چطور عمل کرد؟
+
+
+
+- intent: Introduction_teacher
+  examples: |
+    - چند درس را می­ توانیم به عنوان معرفی به استاد انتخاب کنیم؟
+
+- intent: Introduction_teacher_course
+  examples: |
+    - آیا دروس نیفتاده را می­ توان معرفی به استاد کرد؟
+
+- intent: Introduction_teacher_limite
+  examples: |
+    - ثبت نام معرفی به استاد با سقف ۱۶ برای چه کسانی می ­باشد؟
+
+- intent: Introduction_teacher_time
+  examples: |
+    - چه زمانی می­توان از معرفی به استاد استفاده کرد؟
+
+- intent: Absence_practical_course
+  examples: |
+    - آیا غیبت پروژه و دروس عملی را می ­شود بی ­اثر نمود؟
+
+- intent: academic_probation
+  examples: |
+    - مشروطی چیست و سقف مجاز مشروطی چند ترم است؟
+
+- intent: Email_password_recovery
+  examples: |
+    - رمز عبور ایمیل دانشگاهی را چگونه بازیابی نمایم ؟
+
+- intent: Upload_documents
+  examples: |
+    - برای دانشجویان جدید الورود  بارگذاری مدارک در پورتال به چه صورت است؟
+
+- intent: tuition_payment
+  examples: |
+    - برای دانشجویان جدید الورود  پرداخت شهریه در پورتال چگونه است؟
+
+- intent: editing_information
+  examples: |
+    - چگونه می توان اطلاعات شخصی در پورتال آموزشی خود را تغییر داد و یا اصلاح کرد؟
+
+- intent: report_card
+  examples: |
+    - برای مشاهده کارنامه به کدام قسمت مراجعه کنم؟
+
+- intent: Teacher_evaluation
+  examples: |
+    - نحوه‌ی ارزیابی استاد چگونه است
+
+- intent: problem_teacher_evaluation
+  examples: |
+    - به علت عدم ارزیابی اساتید، قادر به مشاهده اطلاعات دروس خود نمی باشم؟
+
+- intent: Use_university_email
+  examples: |
+    - آیا دانشجویان  فارغ التحصیل امکان استفاده از ایمیل دانشگاه را دارند؟
+
+- intent: Education_loans
+  examples: |
+    -  آیا وام تحصیلی ومسکن به ما تعلق می گیرد
+
+
+
+- intent: Supervisor_teacher
+  examples: |
+    - ؟ استاد راهنما کیست 
+
+# - intent: Summer_lessons
+#   examples: |
+#     -  آیا تابستون هم میتونم واحد بگیرم؟ 
+
+# - intent: Failure_finish_4years
+#   examples: |
+#     - گر درسم بعد 8 نیمسال تموم نشد چی میشه؟
+
+
+# - intent: Receive_encyclopedia
+#   examples: |
+#     - شرایط و نحوه دریافت دانشنامه (اصل مدرک دانش آموختگی) چیست؟
+
+
+
+
+
+    
+    

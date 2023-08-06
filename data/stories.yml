@@ -1,0 +1,280 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+
+- story: User asks for minimum grade
+  steps:
+  - intent: minimum_grade
+  - action: utter_minimum_grade
+
+
+- story: User asks for student_id
+  steps:
+  - intent: student_id
+  - action: utter_student_id
+
+
+- story: User asks for golestan_system
+  steps:
+  - intent: golestan_system
+  - action: utter_golestan_system
+
+
+
+- story: User asks for minimum grade
+  steps:
+  - intent: minimum_grade
+  - action: utter_minimum_grade
+
+
+- story: User asks for changeـfield
+  steps:
+  - intent: changeـfield
+  - action: utter_changeـfield
+
+
+- story: User asks for classـtime
+  steps:
+  - intent: classـtime
+  - action: utter_classـtime
+
+- story: User asks for  failureـpassـoneـhighـschoolـcourses
+  steps:
+  - intent: failureـpassـoneـhighـschoolـcourses
+  - action: utter_failureـpassـoneـhighـschoolـcourses
+
+- story: User asks for notـhavingـnationalـcode
+  steps:
+  - intent: notـhavingـnationalـcode
+  - action: utter_notـhavingـnationalـcode
+
+- story: User asks for determiningـsupervisorـmaster
+  steps:
+  - intent: determiningـsupervisorـmaster
+  - action: utter_determiningـsupervisorـmaster
+
+- story: User asks for golestan_problem
+  steps:
+  - intent: golestan_problem
+  - action: utter_golestan_problem
+
+- story: User asks for timeـstartـnewـsemester
+  steps:
+  - intent: timeـstartـnewـsemester
+  - action: utter_timeـstartـnewـsemester
+
+- story: User asks for failureـparticipateـinـexam
+  steps:
+  - intent: failureـparticipateـinـexam
+  - action: utter_failureـparticipateـinـexam
+
+- story: User asks for numberـofـunitsـcanـbeـobtainedـforـeachـstudent
+  steps:
+  - intent: numberـofـunitsـcanـbeـobtainedـforـeachـstudent
+  - action: utter_numberـofـunitsـcanـbeـobtainedـforـeachـstudent
+
+- story: User asks for Contact_with_university
+  steps:
+  - intent: Contact_with_university
+  - action: utter_Contact_with_university
+
+- story: User asks for Deleting_a_course_or_semester
+  steps:
+  - intent: Deleting_a_course_or_semester
+  - action: utter_Deleting_a_course_or_semester
+
+- story: User asks for Deleting_a_course_or_semester
+  steps:
+  - intent: Deleting_a_course_or_semester
+  - action: utter_Deleting_a_course_or_semester
+
+- story: User asks for Leaveـinـtheـfirstـsemester
+  steps:
+  - intent: Leaveـinـtheـfirstـsemester
+  - action: utter_Leaveـinـtheـfirstـsemester
+
+  
+- story: User asks for change_field
+  steps:
+  - intent: change_field
+  - action: utter_change_field
+
+- story: User asks for Withdrawal_education
+  steps:
+  - intent: Withdrawal_education
+  - action: utter_Withdrawal_education
+
+- story: User asks for Guest_transfers_requests
+  steps:
+  - intent: Guest_transfers_requests
+  - action: utter_Guest_transfers_requests
+
+- story: User asks for Certificate_student
+  steps:
+  - intent: Certificate_student
+  - action: utter_Certificate_student
+
+
+- story: User asks for years_limite
+  steps:
+  - intent: years_limite
+  - action: utter_years_limite
+
+
+- story: User asks for Equalization_courses
+  steps:
+  - intent: Equalization_courses
+  - action: utter_Equalization_courses
+
+
+- story: User asks for Error_choosing_courses
+  steps:
+  - intent: Error_choosing_courses
+  - action: utter_Error_choosing_courses
+
+# -------------------------------------------------
+
+- story: User asks for Introduction_teacher
+  steps:
+  - intent: Introduction_teacher
+  - action: utter_Introduction_teacher
+
+- story: User asks for  Introduction_teacher_course
+  steps:
+  - intent: Introduction_teacher_course
+  - action: utter_Introduction_teacher_course
+
+
+- story: User asks for Introduction_teacher_limite
+  steps:
+  - intent: Introduction_teacher_limite
+  - action: utter_Introduction_teacher_limite
+
+- story: User asks for Introduction_teacher_time
+  steps:
+  - intent: Introduction_teacher_time
+  - action: utter_Introduction_teacher_time
+
+
+- story: User asks for Absence_practical_course
+  steps:
+  - intent: Absence_practical_course
+  - action: utter_Absence_practical_course
+
+
+
+- story: User asks for academic_probation
+  steps:
+  - intent: academic_probation
+  - action: utter_academic_probation
+
+
+- story: User asks for Email_password_recovery
+  steps:
+  - intent: Email_password_recovery
+  - action: utter_Email_password_recovery
+
+
+- story: User asks for Upload_documents
+  steps:
+  - intent: Upload_documents
+  - action: utter_Upload_documents
+
+
+- story: User asks for tuition_payment
+  steps:
+  - intent: tuition_payment
+  - action: utter_tuition_payment
+
+
+- story: User asks for editing_information
+  steps:
+  - intent: editing_information
+  - action: utter_editing_information
+
+
+
+- story: User asks for report_card
+  steps:
+  - intent: report_card
+  - action: utter_report_card
+
+
+
+- story: User asks for Teacher_evaluation
+  steps:
+  - intent: Teacher_evaluation
+  - action: utter_Teacher_evaluation
+
+
+- story: User asks for problem_teacher_evaluation
+  steps:
+  - intent: problem_teacher_evaluation
+  - action: utter_problem_teacher_evaluation
+
+
+- story: User asks for Use_university_email
+  steps:
+  - intent: Use_university_email
+  - action: utter_Use_university_email
+
+
+- story: User asks for Education_loans
+  steps:
+  - intent: Education_loans
+  - action: utter_Education_loans
+
+
+- story: User asks for Supervisor_teacher
+  steps:
+  - intent: tuition_paymSupervisor_teacherent
+  - action: utter_Supervisor_teacher
+
+
+# - story: User asks for Summer_lessons
+#   steps:
+#   - intent: Summer_lessons
+#   - action: utter_Summer_lessons
+
+# - story: User asks for Failure_finish_4years
+#   steps:
+#   - intent: Failure_finish_4years
+#   - action: utter_Failure_finish_4years
+
+
+# - story: User asks for Receive_encyclopedia
+#   steps:
+#   - intent: Receive_encyclopedia
+#   - action: utter_Receive_encyclopedia
+
+
+
+
